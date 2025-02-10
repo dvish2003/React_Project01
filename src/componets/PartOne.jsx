@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 
 export default function PartOne() {
@@ -7,4 +8,5 @@ export default function PartOne() {
             <p>This is the first part of the application.</p>
         </div>
     )
-}
+}*/
+  // this is a sample components page

@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import PartOne from "./componets/PartOne";
+import Home from "./Pages/Home";
+import TopicBox from "./componets/TopicBox";
 
 function App() {
   return (
     <div className="App">
-     <h1>This My First React Project</h1>
-        <PartOne/>
+            <Home/>
+        <TopicBox/>
     </div>
   );
 }
