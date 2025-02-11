@@ -1,12 +1,25 @@
 import React from 'react';
+import './topicBox.css'
 
 export default function TopicBox() {
+    const topic = "My Favourite Topic is Java"; //dynamic components
+    const Item = "And PHP"; //dynamic components
     return (
         <div>
 <div className="topicBox">
-    <span>
+  {/*  <span>
         This is A Topic
-    </span>
+        //Manual Components
+    </span>*/}
+
+  {/*  <span>
+        {topic} {Item}
+         Dynamic Components
+    </span>*/}
+   {/* <span>
+        {alert("Hello Vishan")}
+        //this is a alert message
+    </span>*/}
 </div>
         </div>
     )
