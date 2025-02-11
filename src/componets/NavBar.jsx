@@ -15,10 +15,10 @@ export default function NavBar() {
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Features</a>
+                            <a className="nav-link" href="../Pages/About.jsx">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
+                            <a className="nav-link" href="../Pages/Contact.jsx">Contact</a>
                         </li>
                         <li className="nav-item">
                              <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
