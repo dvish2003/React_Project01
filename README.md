@@ -8,6 +8,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
+Install boostrap use teminal`npm install bootstrap`<br>
+{"import 'bootstrap/dist/css/bootstrap.min.css';"}
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
