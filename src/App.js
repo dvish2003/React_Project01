@@ -1,17 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import PartOne from "./componets/PartOne";
-import Home from "./Pages/Home";
-import TopicBox from "./componets/TopicBox";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 import NavBar from "./componets/NavBar";
 
 function App() {
-  return (
-    <div className="App">
-    <Home/>
-    </div>
-  );
-  // this is a sample app page with two components and a home page
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;

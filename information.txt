@@ -1,0 +1,6 @@
+react Routing install use terminal ( npm install react-router-dom)
+
+### `npm start`
+
+Install boostrap use teminal`npm install bootstrap`<br>
+{"import 'bootstrap/dist/css/bootstrap.min.css';"}
